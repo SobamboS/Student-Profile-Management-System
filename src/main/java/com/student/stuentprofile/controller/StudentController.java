@@ -18,12 +18,12 @@ import java.time.ZonedDateTime;
 @RestController
 @RequestMapping("/api/v1/student")
 public class StudentController{
-        private final StudentService studentService;
-
         @Autowired
-    public StudentController(StudentService studentService){
-        this.studentService=studentService;
-    }
+        StudentService studentService;
+
+//    public StudentController(StudentService studentService){
+//        this.studentService=studentService;
+//    }
 
     @PostMapping("/register/student")
         public ResponseEntity<?> registerStudent(@RequestBody @Valid RegistrationRequest request,

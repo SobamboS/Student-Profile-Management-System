@@ -13,13 +13,13 @@ import java.util.Optional;
 @Slf4j
 public class StudentServiceImplementation implements StudentService{
 
-        private  final StudentRepository studentRepository;
-
-
         @Autowired
-        public StudentServiceImplementation(StudentRepository studentRepository){
-            this.studentRepository=studentRepository;
-        }
+        StudentRepository studentRepository;
+
+
+//        public StudentServiceImplementation(StudentRepository studentRepository){
+//            this.studentRepository=studentRepository;
+//        }
 
 
         @Override

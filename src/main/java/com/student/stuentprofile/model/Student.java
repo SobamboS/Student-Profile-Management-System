@@ -1,15 +1,15 @@
 package com.student.stuentprofile.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
     @Entity
     @Table(name = "students")
     @Setter
     @Getter
-    @NoArgsConstructor
+    @AllArgsConstructor
     public class Student{
 
         @Id
@@ -39,6 +39,8 @@ import lombok.Setter;
         this.password=password;
     }
 
+        public Student( ){
+        }
     }
 
 
