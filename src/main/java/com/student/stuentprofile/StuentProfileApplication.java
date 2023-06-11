@@ -1,5 +1,7 @@
 package com.student.stuentprofile;
 
+import com.student.stuentprofile.ui.LoginUI;
+import com.student.stuentprofile.ui.RegisterUI;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

@@ -1,4 +1,4 @@
-package com.student.stuentprofile;
+package com.student.stuentprofile.ui;
 
 import javax.swing.*;
 import java.awt.*;
